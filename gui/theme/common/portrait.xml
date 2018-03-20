@@ -10,7 +10,7 @@
 		</style>
 
 		<style name="text_m_accent">
-			<font resource="font_m" color="%accent_color%"/>
+			<font resource="font_m" color="%text_color%"/>
 		</style>
 
 		<style name="text_m_fail">
@@ -88,7 +88,7 @@
 
 		<style name="fileselector">
 			<highlight color="%fileselector_highlight_color%"/>
-			<header background="%background_color%" textcolor="%accent_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
+			<header background="%background_color%" textcolor="%text_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
 			<fastscroll linecolor="%fileselector_linecolor%" rectcolor="%accent_color%" w="%fastscroll_w%" linew="%fastscroll_linew%" rectw="%fastscroll_rectw%" recth="%fastscroll_recth%"/>
 			<separator color="%fileselector_linecolor%" height="%fileselector_separatorheight%"/>
 			<sort name="tw_gui_sort_order"/>
@@ -99,7 +99,7 @@
 
 		<style name="listbox">
 			<highlight color="%fileselector_highlight_color%"/>
-			<header background="%background_color%" textcolor="%accent_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
+			<header background="%background_color%" textcolor="%text_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
 			<fastscroll linecolor="%fileselector_linecolor%" rectcolor="%accent_color%" w="%fastscroll_w%" linew="%fastscroll_linew%" rectw="%fastscroll_rectw%" recth="%fastscroll_recth%"/>
 			<separator color="%fileselector_linecolor%" height="%fileselector_separatorheight%"/>
 			<icon selected="radio_true" unselected="radio_false"/>
@@ -115,7 +115,7 @@
 
 		<style name="partitionlist">
 			<highlight color="%fileselector_highlight_color%"/>
-			<header background="%background_color%" textcolor="%accent_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
+			<header background="%background_color%" textcolor="%text_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
 			<fastscroll linecolor="%fileselector_linecolor%" rectcolor="%accent_color%" w="%fastscroll_w%" linew="%fastscroll_linew%" rectw="%fastscroll_rectw%" recth="%fastscroll_recth%"/>
 			<dimensions lineh="%slidervalue_lineh%" linepadding="%slidervalue_padding%" sliderw="%slidervalue_sliderw%" sliderh="%slidervalue_sliderh%"/>
 			<icon selected="checkbox_true" unselected="checkbox_false"/>
@@ -127,7 +127,7 @@
 		<style name="partitionlist_storage">
 			<highlight color="%fileselector_highlight_color%"/>
 			<placement x="%col1_x_left%" y="%row5_y%" w="%content_overlay_width%" h="%partitionlist_storage_height%"/>
-			<header background="%background_color%" textcolor="%accent_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
+			<header background="%background_color%" textcolor="%text_color%" separatorcolor="%accent_color%" separatorheight="%fileselector_separatorheight%"/>
 			<fastscroll linecolor="%fileselector_linecolor%" rectcolor="%accent_color%" w="%fastscroll_w%" linew="%fastscroll_linew%" rectw="%fastscroll_rectw%" recth="%fastscroll_recth%"/>
 			<dimensions lineh="%slidervalue_lineh%" linepadding="%slidervalue_padding%" sliderw="%slidervalue_sliderw%" sliderh="%slidervalue_sliderh%"/>
 			<icon selected="radio_true" unselected="radio_false"/>
@@ -175,7 +175,7 @@
 			<text style="text_m">
 				<condition var1="tw_no_cpu_temp" var2="0"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>%tw_version%</text>
+				<text>Code Of Honor: kirin970 | %tw_version%</text>
 			</text>
 
 			<button style="main_button">

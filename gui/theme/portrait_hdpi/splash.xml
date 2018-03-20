@@ -11,6 +11,7 @@
 	<resources>
 		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="52"/>
 		<image name="splashlogo" filename="splashlogo" retainaspect="1"/>
+		<image name="codeofhonor" filename="codeofhonor" retainaspect="1"/>
 		<image name="splashteamwin" filename="splashteamwin" retainaspect="1"/>
 	</resources>
 
@@ -34,7 +35,10 @@
 				<image resource="splashlogo"/>
 				<placement x="540" y="456" placement="4"/>
 			</image>
-
+			<image>
+				<image resource="codeofhonor"/>
+				<placement x="540" y="1000" placement="4"/>
+			</image>
 			<image>
 				<image resource="splashteamwin"/>
 				<placement x="540" y="1540" placement="4"/>
